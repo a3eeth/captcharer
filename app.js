@@ -4,7 +4,7 @@ const textToImage = require('text-to-image')
 const cryptoRandomString = require('crypto-random-string')
 
 let gibberish = cryptoRandomString({
-	length: 10,
+	length: 11,
 	type: 'url-safe'
 })
 
